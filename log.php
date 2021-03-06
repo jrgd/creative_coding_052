@@ -9,7 +9,7 @@ $week_n =  date("W");
 $year_n = date("Y");
 
 $file_name = "{$year_n}-{$week_n}-log.txt";
-$file_path = "./logs/{$file_name}";
+$file_path = "/Users/jrgd/tools/logger/logs/{$file_name}";
 
 array_shift($argv); // pop out the first eleemnt of the array
 $arguments_string = implode(' ', $argv); // concatenation
