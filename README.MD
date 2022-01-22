@@ -26,7 +26,7 @@ Further research/experimentations:
   - insert in Script:
       ```/usr/local/bin/php /Users/jeromerigaud/tools/logger/log.php "{query}"```
   - link the trigger to the action
-### Use form CLI
+### Use from CLI
   ```php ./log.php I'm also able to invoke the "software" from the command line```
   :+todo fix:  there is still an escape error and the single quote gets crushed
 ### Other issues
